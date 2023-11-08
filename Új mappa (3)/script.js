@@ -29,7 +29,7 @@ function BuildTable(data){
     console.log(table)
 
     //sorok esetén törlés
-    while (table.row.length > 1) {
+    while (table.rows.length > 1) {
         table.deleteRow(1);
     }
 
